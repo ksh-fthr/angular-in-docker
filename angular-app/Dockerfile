@@ -6,7 +6,7 @@
 FROM node:10.12.0 as build-stage
 
 WORKDIR /app
-COPY package*.json /app/
+COPY ./app/package*.json /app/
 
 # npm install 中に下記 Warning がでるが回避策が現状見当たらないので放置するしかない
 # 内容はプラットフォームが Mac OSX ではないからスキップするというもので、
@@ -17,7 +17,7 @@ COPY package*.json /app/
 #   npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.6: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
 
 RUN npm install
-COPY ./ /app/
+COPY ./app/ /app/
 ARG configuration=production
 
 # Angular アプリをビルドする
