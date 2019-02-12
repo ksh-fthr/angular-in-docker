@@ -3,7 +3,8 @@
     "typeCheck": true
   },
   "rulesDirectory": [
-    "codelyzer"
+    "codelyzer",
+    "src/tslint.json"
   ],
   "rules": {
     "adjacent-overload-signatures": true,
@@ -58,10 +59,7 @@
       true,
       1000
     ],
-    "max-line-length": [
-      true,
-      120
-    ],
+    "max-line-length": false,
     "member-access": true,
     "member-ordering": [
       true,
@@ -111,7 +109,7 @@
     "no-eval": true,
     "no-floating-promises": true,
     "no-for-in-array": true,
-    "no-import-side-effect": true,
+    "no-import-side-effect": false,
     "no-inferrable-types": [
       false,
       "ignore-params"
@@ -133,7 +131,7 @@
     "no-non-null-assertion": true,
     "no-null-keyword": false,
     "no-object-literal-type-assertion": true,
-    "no-parameter-properties": true,
+    "no-parameter-properties": false,
     "no-parameter-reassignment": true,
     "no-reference": true,
     "no-reference-import": true,
@@ -179,7 +177,7 @@
     "prefer-conditional-expression": false,
     "prefer-const": true,
     "prefer-for-of": false,
-    "prefer-function-over-method": true,
+    "prefer-function-over-method": false,
     "prefer-method-signature": true,
     "prefer-object-spread": true,
     "prefer-switch": false,
@@ -257,11 +255,10 @@
     "directive-selector": [
       true,
       "attribute",
-      "app",
       "camelCase"
     ],
     "invoke-injectable": true,
-    "use-host-property-decorator": true,
+    "use-host-property-decorator": false,
     "use-input-property-decorator": true,
     "use-output-property-decorator": true,
     "no-access-missing-member": true,
