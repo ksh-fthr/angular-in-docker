@@ -2,8 +2,8 @@
 # Angular アプリをビルドするための環境を構築する
 # -----------------------------------------------------
 # Angualr のビルドする環境として node をインストール
-# 10.12.0 は開発で使用しているバージョン
-FROM node:10.12.0 as build-stage
+# 12.18.3 は開発で使用しているバージョン
+FROM node:12.18.3 as build-stage
 
 WORKDIR /app
 COPY ./app/package*.json /app/
