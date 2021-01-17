@@ -12,6 +12,47 @@ Docker + Angular + Nginx の環境構築を試したものです。
 | Docker                                                       | v20.10.0, build 7287ab3 | `$ docker --version`         |
 | Docker Compose                                               | v1.27.4, build 40524192 | `$ docker-compose --version` |
 
+
+<details>
+<div>
+<summary>ng version の結果</summary>
+
+```bash
+$ ng version
+
+     _                      _                 ____ _     ___
+    / \   _ __   __ _ _   _| | __ _ _ __     / ___| |   |_ _|
+   / △ \ | '_ \ / _` | | | | |/ _` | '__|   | |   | |    | |
+  / ___ \| | | | (_| | |_| | | (_| | |      | |___| |___ | |
+ /_/   \_\_| |_|\__, |\__,_|_|\__,_|_|       \____|_____|___|
+                |___/
+
+
+Angular CLI: 11.0.5
+Node: 12.18.3
+OS: darwin x64
+
+Angular: 11.0.5
+... animations, cli, common, compiler, compiler-cli, core, forms
+... platform-browser, platform-browser-dynamic, router
+Ivy Workspace: Yes
+
+Package                         Version
+---------------------------------------------------------
+@angular-devkit/architect       0.1100.5
+@angular-devkit/build-angular   0.1100.5
+@angular-devkit/core            11.0.5
+@angular-devkit/schematics      11.0.5
+@schematics/angular             11.0.5
+@schematics/update              0.1100.5
+rxjs                            6.6.0
+typescript                      4.0.2
+```
+
+</div>
+</details>
+
+
 # ブランチについて
 環境構築のためのプロジェクトなので、ブランチを切って修正することは考えていません。
 `master` ブランチのみで更新を行う予定です。
