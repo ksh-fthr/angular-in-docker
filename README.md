@@ -2,6 +2,16 @@
 Docker + Angular + Nginx の環境構築を試したものです。
 今後知見が増えたりアイディアが出たら更新することもあります。
 
+# 環境について
+以下の環境で実行・確認しています。
+
+| 環境                                                         | バージョン              | 備考                         |
+| ------------------------------------------------------------ | ----------------------- | ---------------------------- |
+| macOS Catalina                                               | v10.15.7                |                              |
+| [Docker Desktop for Mac](https://hub.docker.com/editions/community/docker-ce-desktop-mac/) | v3.0.3                  |                              |
+| Docker                                                       | v20.10.0, build 7287ab3 | `$ docker --version`         |
+| Docker Compose                                               | v1.27.4, build 40524192 | `$ docker-compose --version` |
+
 # ブランチについて
 環境構築のためのプロジェクトなので、ブランチを切って修正することは考えていません。
 `master` ブランチのみで更新を行う予定です。
