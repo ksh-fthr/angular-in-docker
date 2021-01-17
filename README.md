@@ -8,14 +8,18 @@ Docker + Angular + Nginx の環境構築を試したものです。
 | 環境                                                         | バージョン              | 備考                         |
 | ------------------------------------------------------------ | ----------------------- | ---------------------------- |
 | macOS Catalina                                               | v10.15.7                |                              |
-| [Docker Desktop for Mac](https://hub.docker.com/editions/community/docker-ce-desktop-mac/) | v3.0.3                  |                              |
+| [Docker Desktop for Mac](https://hub.docker.com/editions/community/docker-ce-desktop-mac/) | v3.0.3                   | |
 | Docker                                                       | v20.10.0, build 7287ab3 | `$ docker --version`         |
 | Docker Compose                                               | v1.27.4, build 40524192 | `$ docker-compose --version` |
-
+| [Angular CLI](https://cli.angular.io/)                       | v11.0.5                 | `$ ng --version`             |
+| [Angular](https://angular.io/)                               | v11.0.5                 | 同上                         |
+| [TypeScript](https://www.typescriptlang.org/)                | v4.0.2                  | 同上                         |
+| [Node.js](https://nodejs.org/ja/)                            | v12.18.3                | `$ node --version`           |
+| [npm](https://www.npmjs.com/)                                | v6.14.6                 | `$ npm --version`            |
 
 <details>
 <div>
-<summary>ng version の結果</summary>
+<summary>Angular のバージョン詳細( ng version の結果 )</summary>
 
 ```bash
 $ ng version
