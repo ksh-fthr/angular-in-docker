@@ -5,24 +5,24 @@ Docker + Angular + Nginx の環境構築を試したものです。
 # 環境について
 以下の環境で実行・確認しています。
 
-| 環境                                                         | バージョン              | 備考                         |
-| ------------------------------------------------------------ | ----------------------- | ---------------------------- |
-| macOS Catalina                                               | v10.15.7                |                              |
-| [Docker Desktop for Mac](https://hub.docker.com/editions/community/docker-ce-desktop-mac/) | v3.0.3                   | |
-| Docker                                                       | v20.10.0, build 7287ab3 | `$ docker --version`         |
-| Docker Compose                                               | v1.27.4, build 40524192 | `$ docker-compose --version` |
-| [Angular CLI](https://cli.angular.io/)                       | v11.0.5                 | `$ ng --version`             |
-| [Angular](https://angular.io/)                               | v11.0.5                 | 同上                         |
-| [TypeScript](https://www.typescriptlang.org/)                | v4.0.2                  | 同上                         |
-| [Node.js](https://nodejs.org/ja/)                            | v12.18.3                | `$ node --version`           |
-| [npm](https://www.npmjs.com/)                                | v6.14.6                 | `$ npm --version`            |
+| 環境                                                         | バージョン                  | 備考                         |
+| ------------------------------------------------------------ | --------------------------- | ---------------------------- |
+| macOS Catalina                                               | v10.15.7                    |                              |
+| [Docker Desktop for Mac](https://hub.docker.com/editions/community/docker-ce-desktop-mac/) | v3.0.3                       |
+| Docker                                                       | v20.10.8, build 3967b7d     | `$ docker --version`         |
+| Docker Compose                                               | v1.29.2, build 5becea4c     | `$ docker-compose --version` |
+| [Angular CLI](https://cli.angular.io/)                       | v12.2.13                    | `$ ng --version`             |
+| [Angular](https://angular.io/)                               | v12.2.13                    | 同上                         |
+| [TypeScript](https://www.typescriptlang.org/)                | v4.3.5                      | 同上                         |
+| [Node.js](https://nodejs.org/ja/)                            | v14.17.0                    | `$ node --version`           |
+| [npm](https://www.npmjs.com/)                                | v6.14.13                    | `$ npm --version`            |
 
 <details>
 <div>
 <summary>Angular のバージョン詳細( ng version の結果 )</summary>
 
 ```bash
-$ ng version
+$ ng --version
 
      _                      _                 ____ _     ___
     / \   _ __   __ _ _   _| | __ _ _ __     / ___| |   |_ _|
@@ -32,25 +32,24 @@ $ ng version
                 |___/
 
 
-Angular CLI: 11.0.5
-Node: 12.18.3
+Angular CLI: 12.2.13
+Node: 14.17.0
+Package Manager: npm 6.14.13
 OS: darwin x64
 
-Angular: 11.0.5
+Angular: 12.2.13
 ... animations, cli, common, compiler, compiler-cli, core, forms
 ... platform-browser, platform-browser-dynamic, router
-Ivy Workspace: Yes
 
 Package                         Version
 ---------------------------------------------------------
-@angular-devkit/architect       0.1100.5
-@angular-devkit/build-angular   0.1100.5
-@angular-devkit/core            11.0.5
-@angular-devkit/schematics      11.0.5
-@schematics/angular             11.0.5
-@schematics/update              0.1100.5
+@angular-devkit/architect       0.1202.13
+@angular-devkit/build-angular   12.2.13
+@angular-devkit/core            12.2.13
+@angular-devkit/schematics      12.2.13
+@schematics/angular             12.2.13
 rxjs                            6.6.0
-typescript                      4.0.2
+typescript                      4.3.5
 ```
 
 </div>
