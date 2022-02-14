@@ -4,6 +4,7 @@
 /angular-app/app/dist
 angular-app/app/tmp
 angular-app/app/out-tsc
+angular-app/app/.angular
 # Only exists if Bazel was run
 /bazel-out
 
