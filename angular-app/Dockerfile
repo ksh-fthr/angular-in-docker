@@ -3,7 +3,7 @@
 # -----------------------------------------------------
 # Angualr のビルドする環境として node をインストール
 # 12.18.3 は開発で使用しているバージョン
-FROM node:14.17.0 as build-stage
+FROM node:14.20.0 as build-stage
 
 WORKDIR /app
 COPY ./app/package*.json /app/
@@ -26,7 +26,7 @@ RUN npm run build -- --output-path=./dist/out --configuration $configuration
 # -----------------------------------------------------
 # Nginx の Docker 環境を構築する
 # -----------------------------------------------------
-FROM nginx:1.15
+FROM nginx:1.23
 
 # ビルドした成果物を Docker 上の Nginx のドキュメントとして扱うためにコピー(デプロイ)
 COPY --from=build-stage /app/dist/out/ /usr/share/nginx/html
