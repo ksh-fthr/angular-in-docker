@@ -3,7 +3,7 @@
 # -----------------------------------------------------
 # Angualr のビルドする環境として node をインストール
 # 12.18.3 は開発で使用しているバージョン
-FROM node:14.21.2 as build-stage
+FROM node:14.21.3 as build-stage
 
 WORKDIR /app
 COPY ./app/package*.json /app/
