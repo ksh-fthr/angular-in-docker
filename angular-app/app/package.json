@@ -28,7 +28,7 @@
     "ansi-regex": "6.0.1",
     "postcss": "8.4.41",
     "rxjs": "6.6.7",
-    "tslib": "2.6.3",
+    "tslib": "2.7.0",
     "zone.js": "0.15.0"
   },
   "devDependencies": {
