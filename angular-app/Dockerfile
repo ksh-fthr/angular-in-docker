@@ -26,7 +26,7 @@ RUN npm run build -- --output-path=./dist/out --configuration $configuration
 # -----------------------------------------------------
 # Nginx の Docker 環境を構築する
 # -----------------------------------------------------
-FROM nginx:1.27
+FROM nginx:1.28
 
 # ビルドした成果物を Docker 上の Nginx のドキュメントとして扱うためにコピー(デプロイ)
 COPY --from=build-stage /app/dist/out/ /usr/share/nginx/html
