@@ -25,7 +25,7 @@
     "@angular/platform-browser-dynamic": "13.4.0",
     "@angular/router": "13.4.0",
     "ansi-html-community": "0.0.8",
-    "ansi-regex": "6.2.0",
+    "ansi-regex": "6.2.2",
     "postcss": "8.5.6",
     "rxjs": "6.6.7",
     "tslib": "2.8.1",
